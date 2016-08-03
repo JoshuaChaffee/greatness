@@ -10,20 +10,20 @@ body {
 }
 
 footer {
-position: absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 7px;
   text-align:center;
   font-size:1.5em;
-  color:black;
-  background-color:white
+  color:white;
+  background-color:Dodgerblue;
 }
 
 footer a {
    text-decoration:none;
-   color:black;
+   color:white;
 }
 
 .navbar{
@@ -35,15 +35,16 @@ footer a {
 
 .navbar li{
   display:inline-block;
-  margin-right:15px;
   font-variant:small-caps;
-  color:green;
 }
 
 nav{
-  background-color: grey;
+  background-color: Dodgerblue;
   position:absolute;
   width:100%;
+  text-align:center;
+  font-size:17px;
+  margin-top:1px;
 }
 
 .navbar a{
@@ -53,22 +54,22 @@ nav{
 }
 
 .navbar a:hover{
-  background-color:black;
-  padding:5px;
-}
-
-.active{
-  font-weight:bolder;
+  background-color:Dodgerblue;
+  color:gold;
 }
 
 .mission {
   display:inline;
-  width:50px;
   padding:2%;
 }
 
 .video {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
   float: right;
+  width:615px;
+  height:450px;
 }
 
 .logo {
@@ -79,7 +80,7 @@ nav{
 
 .title {
   position: absolute;
-  top: 10px;
+  top: 50px;
   left: 575px;
 }
 
@@ -90,9 +91,33 @@ nav{
 }
 
 .main {
-    padding-right:250px;
+    margin-bottom:1px;
+    padding-left: 20px;
+    padding-right:700px;
+    text-align:left;
 }
 
 .header{
   margin-top: 10px;
 }
+
+.contenttitle {
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align:left;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.contl2 {
+  margin-top: 1px;
+  margin-bottom: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align:left;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.
