@@ -18,7 +18,7 @@ footer {
   text-align:center;
   font-size:1.5em;
   color:white;
-  background-color:Dodgerblue;
+  background-color:DodgerBlue;
 }
 
 footer a {
@@ -39,23 +39,25 @@ footer a {
 }
 
 nav{
-  background-color: Dodgerblue;
-  position:absolute;
-  width:100%;
+  background-color: #00AEEF;
+  
+   width:100%;
   text-align:center;
   font-size:17px;
-  margin-top:1px;
+  padding-bottom: 10px;
+  
 }
 
 .navbar a{
   text-decoration:none;
   color:white;
   padding:30px;
+  margin-bottom:100px;
 }
 
 .navbar a:hover{
-  background-color:Dodgerblue;
   color:gold;
+  
 }
 
 .mission {
@@ -63,19 +65,13 @@ nav{
   padding:2%;
 }
 
-.video {
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-  float: right;
-  width:615px;
-  height:450px;
-}
 
 .logo {
  position: relative;
  top: 0%;
- margin-left: 33%;
+ margin-left:-15%;
+ width:150;
+ height:150;
 }
 
 .title {
@@ -120,4 +116,13 @@ nav{
   font-weight: 500;
 }
 
-.
+a {
+  font-size:30;
+  position:relative;
+  float:top;
+}
+
+.banner{
+  width:100%;
+}
+
