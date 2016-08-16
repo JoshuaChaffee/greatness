@@ -22,16 +22,16 @@ body {
 font-size:25px;
  }
 
-footer {
-  position: relative;
+footer {			
+  position: absolute;
   right: 0;
-  bottom: 0;
   left: 0;
-  padding: -3px;
-  text-align:center;
-  font-size:1.5em;
-  color:white;
-  background-color:Bubbles;
+  padding: 1rem;
+  text-align: center;
+  font-size: 120%;
+  border-color:#7ED4F7;
+  margin-top: 3%;
+  float:bottom;
 }
 
 footer a {
@@ -72,7 +72,6 @@ nav{
 
 .navbar a:hover{
   color:gold;
-  
 }
 
 .mission {
@@ -98,7 +97,6 @@ nav{
 
 .p {
     margin: 0;
-    padding: -10px;
     font-size:15px;
     color: dodgerblue;
 }
@@ -145,6 +143,7 @@ a {
 
 .banner{
   width:100%;
+  font-size:40px;
 }
 
 .missionstatement{
@@ -176,37 +175,40 @@ a:active {
       font-size:100;
       transition-duration:2s;
       float:right;
-     
+      font-size:200%;
+     position:static;
+     text-align:float;
 }
 
 [class*="col-3-4"] {
     float: left;
-    padding: 15px;
+    padding: 60px;
   
 }
 
 [class*="col-1-2"] {
     float:left;
-    padding:15px;
+    padding:60px;
 }
 
 [class*="col-5-6"] {
     float:left;
-    padding:15px;
+    padding:60px;
 }
 
 [class*="col-1-4"] {
     float:left;
-    padding:15px;
+    padding:60px;
 }
 
 [class*="col-3-9"] {
     float:left;
-    padding:15px;
+    padding:60px;
 }
 
 .btn:hover{
     background-color: dodgerblue;
+    transition-duration:2s;
 }
 
 
@@ -218,14 +220,19 @@ a:active {
 .donate{
     background-image: 
 }
+
 .partners {
   margin-top:50%;
 }
 
 .c{
-    background-image: ../images/workshop.jpg;
+   background-image: ../images/workshop.jpg;
 }
 .logo2 {
   float:left;
   width:15%;
+}
+
+.youth {
+  text-align:center;
 }
