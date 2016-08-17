@@ -5,6 +5,7 @@ h1 {
    width: 100%; 
    background-color:rgba(255, 255, 255, 0.62);
    color:dodgerblue;
+  
 
 }
 
@@ -21,17 +22,22 @@ body {
 .navbar a {font-family: 'Oswald', sans-serif;
 font-size:25px;
  }
+ 
+ .wufoo{
+     
+ }
 
 footer {			
   position: absolute;
   right: 0;
+  bottom: 0;
   left: 0;
   padding: 1rem;
   text-align: center;
-  font-size: 120%;
+  font-size: 12                                                                                
+   0%;
+  background-color:white;
   border-color:#7ED4F7;
-  margin-top: 3%;
-  float:bottom;
 }
 
 footer a {
@@ -84,7 +90,7 @@ nav{
  position: relative;
  top: 0%;
  margin-left:3%;
- width:15%;
+ width:13%;
 
  
 }
@@ -97,6 +103,7 @@ nav{
 
 .p {
     margin: 0;
+    padding: -10px;
     font-size:15px;
     color: dodgerblue;
 }
@@ -140,10 +147,14 @@ a {
     color:black;
     font-family: Arial;
 }
+.text{
+    margin-top:20px;
+}
 
 .banner{
   width:100%;
-  font-size:40px;
+  margin-top:20px;
+  height:500px;
 }
 
 .missionstatement{
@@ -168,47 +179,46 @@ a:active {
       border:0;
       color:white;
       cursor: pointer;
-      padding:40px 20px;
+      padding:10px 10px;
       text-align: center;
       margin:0;
       vertical-align: baseline;
-      font-size:100;
+      font-size:50;
       transition-duration:2s;
       float:right;
-      font-size:200%;
-     position:static;
-     text-align:float;
+      border-radius: 27px;
+      
+     
 }
 
 [class*="col-3-4"] {
     float: left;
-    padding: 60px;
+    padding: 15px;
   
 }
 
 [class*="col-1-2"] {
     float:left;
-    padding:60px;
+    padding:15px;
 }
 
 [class*="col-5-6"] {
     float:left;
-    padding:60px;
+    padding:15px;
 }
 
 [class*="col-1-4"] {
     float:left;
-    padding:60px;
+    padding:15px;
 }
 
 [class*="col-3-9"] {
     float:left;
-    padding:60px;
+    padding:15px;
 }
 
 .btn:hover{
     background-color: dodgerblue;
-    transition-duration:2s;
 }
 
 
@@ -220,19 +230,16 @@ a:active {
 .donate{
     background-image: 
 }
-
 .partners {
   margin-top:50%;
 }
 
 .c{
-   background-image: ../images/workshop.jpg;
+    background-image: ../images/workshop.jpg;
 }
 .logo2 {
   float:left;
   width:15%;
 }
 
-.youth {
-  text-align:center;
-}
+
